@@ -1,0 +1,62 @@
+[
+  {
+    "question": "How many leave days do employees get?",
+    "user_role": "HR Manager",
+    "expected_relevant_doc_ids": ["DOC004"],
+    "expected_behavior": "supported"
+  },
+  {
+    "question": "How many leave days do employees get?",
+    "user_role": "Sales Manager",
+    "expected_relevant_doc_ids": [],
+    "expected_behavior": "insufficient_evidence"
+  },
+  {
+    "question": "What is the maximum discount allowed?",
+    "user_role": "Sales Manager",
+    "expected_relevant_doc_ids": ["DOC001"],
+    "expected_behavior": "supported"
+  },
+  {
+    "question": "What is the maximum discount allowed?",
+    "user_role": "HR Manager",
+    "expected_relevant_doc_ids": [],
+    "expected_behavior": "insufficient_evidence"
+  },
+  {
+    "question": "When should enterprise renewals start?",
+    "user_role": "Sales Manager",
+    "expected_relevant_doc_ids": ["DOC002"],
+    "expected_behavior": "supported"
+  },
+  {
+    "question": "Who approves production deployments?",
+    "user_role": "Engineering Manager",
+    "expected_relevant_doc_ids": ["DOC011"],
+    "expected_behavior": "supported"
+  },
+  {
+    "question": "Who approves production deployments?",
+    "user_role": "Sales Manager",
+    "expected_relevant_doc_ids": [],
+    "expected_behavior": "insufficient_evidence"
+  },
+  {
+    "question": "What is the payroll processing date?",
+    "user_role": "Finance Manager",
+    "expected_relevant_doc_ids": ["DOC012"],
+    "expected_behavior": "supported"
+  },
+  {
+    "question": "What is the company lunch benefit?",
+    "user_role": "HR Manager",
+    "expected_relevant_doc_ids": [],
+    "expected_behavior": "insufficient_evidence"
+  },
+  {
+    "question": "How should travel be booked?",
+    "user_role": "Sales Manager",
+    "expected_relevant_doc_ids": ["DOC008"],
+    "expected_behavior": "supported"
+  }
+]

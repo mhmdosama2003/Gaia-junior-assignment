@@ -1,0 +1,130 @@
+[
+  {
+    "id": "DOC001",
+    "title": "Sales Discount Policy",
+    "department": "Sales",
+    "content": "Sales Managers may approve customer discounts up to 15 percent for standard commercial deals. Discounts above 15 percent require Finance approval before the quote is sent to the customer. The approval request should include deal size, customer segment, and business justification. This rule helps protect company margins and keeps pricing consistent across accounts. All approved exceptions must be documented in the CRM for audit review.",
+    "allowed_roles": ["Sales Manager"],
+    "source_type": "policy"
+  },
+  {
+    "id": "DOC002",
+    "title": "Enterprise Renewal Process",
+    "department": "Sales",
+    "content": "Enterprise renewals should start 60 days before the contract end date. The account owner must review product usage, open support issues, and expansion opportunities before contacting the customer. Renewal risks should be flagged early if usage is low or unresolved issues exist. A renewal proposal should be sent only after internal validation with the relevant teams. This process helps improve forecasting accuracy and reduce last-minute renewal delays.",
+    "allowed_roles": ["Sales Manager"],
+    "source_type": "procedure"
+  },
+  {
+    "id": "DOC003",
+    "title": "Sales Pipeline Definitions",
+    "department": "Sales",
+    "content": "A qualified opportunity must include a confirmed business need, an identified budget owner, and an expected close date. Opportunities without a clear next step should not be counted in the committed pipeline. Sales Managers should review pipeline records weekly to check accuracy and completeness. Missing stages, outdated notes, or unrealistic close dates should be corrected before forecast meetings. Clean pipeline data helps leadership understand expected revenue and deal risk.",
+    "allowed_roles": ["Sales Manager"],
+    "source_type": "guide"
+  },
+  {
+    "id": "DOC004",
+    "title": "Employee Leave Policy",
+    "department": "HR",
+    "content": "Full-time employees receive 18 paid leave days per year. Leave requests should be submitted at least 10 business days before the planned start date. Managers should review requests based on team availability, project deadlines, and workload balance. Emergency leave may be accepted with shorter notice when proper justification is provided. HR keeps leave records updated to ensure policy compliance and fair treatment across teams.",
+    "allowed_roles": ["HR Manager"],
+    "source_type": "policy"
+  },
+  {
+    "id": "DOC005",
+    "title": "Hiring Interview Guidelines",
+    "department": "HR",
+    "content": "Interviewers must use structured scorecards for every candidate. Each scorecard should evaluate technical skills, communication, role fit, and relevant experience. Interview feedback must be documented after each interview round to support transparent decisions. Final hiring decisions should be based on evidence from the interview process rather than personal preference. HR Managers are responsible for ensuring that the process is fair, consistent, and properly recorded.",
+    "allowed_roles": ["HR Manager"],
+    "source_type": "guide"
+  },
+  {
+    "id": "DOC006",
+    "title": "Performance Review Process",
+    "department": "HR",
+    "content": "Performance reviews happen twice per year for all employees. Managers should provide written feedback with specific examples of impact, strengths, and improvement areas. Each review should include measurable goals for the next review cycle. Employees should have the opportunity to discuss feedback and clarify expectations with their manager. HR uses review records to support development planning, promotions, and compensation discussions.",
+    "allowed_roles": ["HR Manager"],
+    "source_type": "procedure"
+  },
+  {
+    "id": "DOC007",
+    "title": "Expense Reimbursement Policy",
+    "department": "Finance",
+    "content": "Employees must submit expense receipts within 30 days of the transaction date. Reimbursements over 500 dollars require manager approval and Finance review before payment. Each submission should include a clear business purpose and valid supporting documentation. Missing receipts or unclear expenses may delay or block reimbursement. Finance reviews claims to ensure spending follows company policy and budget controls.",
+    "allowed_roles": ["Sales Manager", "HR Manager"],
+    "source_type": "policy"
+  },
+  {
+    "id": "DOC008",
+    "title": "Travel Booking Rules",
+    "department": "Finance",
+    "content": "Business travel should be booked through the approved company travel portal. Economy class is required for flights under six hours unless an exception is approved. Employees should choose reasonable hotel and transport options that match company budget guidelines. Travel expenses must be submitted with receipts after the trip is completed. Unauthorized bookings may not be reimbursed if they do not follow the travel policy.",
+    "allowed_roles": ["Sales Manager", "HR Manager"],
+    "source_type": "policy"
+  },
+  {
+    "id": "DOC009",
+    "title": "Product Roadmap Summary",
+    "department": "Product",
+    "content": "The Q3 roadmap focuses on permission-aware search, audit logs, admin analytics, and better citation quality. These improvements are designed to support enterprise knowledge workflows where trust and access control are important. Product teams will prioritize features that make answers easier to verify and review. Admin analytics will help teams understand system usage and common knowledge gaps. Roadmap priorities may change based on customer feedback and implementation risk.",
+    "allowed_roles": ["Sales Manager", "HR Manager"],
+    "source_type": "summary"
+  },
+  {
+    "id": "DOC010",
+    "title": "Customer Data Handling",
+    "department": "Engineering",
+    "content": "Customer data must be encrypted at rest and in transit using approved security standards. Production access is limited to approved engineers and must be granted only when there is a valid business reason. All access to customer data is logged for audit review and compliance monitoring. Employees should not copy customer data into personal tools or unsupported systems. Any suspected data handling violation must be reported to the security team immediately.",
+    "allowed_roles": ["Sales Manager", "HR Manager"],
+    "source_type": "security"
+  },
+  {
+    "id": "DOC011",
+    "title": "Engineering Deployment Checklist",
+    "department": "Engineering",
+    "content": "Every production deployment requires passing automated tests before release. Code review approval is required from at least one qualified reviewer. The deployment owner must prepare a rollback plan in case the release causes issues. Monitoring checks should be enabled after deployment to confirm system health. Only Engineering Managers are allowed to approve final production deployment readiness.",
+    "allowed_roles": ["Engineering Manager"],
+    "source_type": "checklist"
+  },
+  {
+    "id": "DOC012",
+    "title": "Payroll Processing Schedule",
+    "department": "Finance",
+    "content": "Payroll is processed on the 25th of each month. Salary corrections must be submitted to Finance by the 20th to be included in the same payroll cycle. Late correction requests will be reviewed but may be moved to the next payroll run. Finance validates payroll changes against approved HR records before processing. Payroll information is confidential and should only be accessed by authorized Finance staff.",
+    "allowed_roles": ["Finance Manager"],
+    "source_type": "procedure"
+  },
+  {
+    "id": "DOC013",
+    "title": "Remote Work Policy",
+    "department": "HR",
+    "content": "Employees may work remotely up to two days per week with manager approval. Remote work should not reduce availability during normal working hours. Teams must keep shared calendars updated so colleagues know when employees are working remotely. Managers may adjust remote work arrangements based on team needs or performance concerns. Exceptions can be granted for special circumstances when approved by HR and the manager.",
+    "allowed_roles": ["HR Manager", "Sales Manager"],
+    "source_type": "policy"
+  },
+  {
+    "id": "DOC014",
+    "title": "CRM Data Quality Rules",
+    "department": "Sales",
+    "content": "Sales records must include account name, owner, stage, expected close date, and the latest customer note. Records missing close dates should be updated before weekly pipeline review. Sales Managers should check that opportunity stages match the real status of the customer conversation. Poor CRM data can reduce forecast accuracy and create confusion between teams. Account owners are responsible for keeping their records current and complete.",
+    "allowed_roles": ["Sales Manager"],
+    "source_type": "guide"
+  },
+  {
+    "id": "DOC015",
+    "title": "Empty Legacy Policy",
+    "department": "HR",
+    "content": "",
+    "allowed_roles": ["HR Manager"],
+    "source_type": "legacy"
+  },
+  {
+    "id": "DOC016",
+    "title": "sales discount policy",
+    "department": "sales",
+    "content": "Sales managers may approve customer discounts up to 15 percent for normal sales deals. Discounts above 15 percent require finance approval before the final customer quote is shared. The request should include the reason for the discount and the expected deal value. This duplicate record is intentionally included to test title normalization and duplicate removal. The cleaned dataset should keep only one version of this policy.",
+    "allowed_roles": ["sales manager"],
+    "source_type": "duplicate"
+  }
+]
