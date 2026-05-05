@@ -112,8 +112,28 @@ Behavior Accuracy: 1.00
 
 ---
 
+## Tradeoffs
+
+- Used a lightweight embedding model for simplicity and speed
+- Used lightweight reranking based on embedding similarity, keyword overlap, and title overlap instead of a complex cross-encoder reranker, to keep the system simple and explainable
+- Used extractive answers instead of generative models to avoid hallucination
+
+## Limitations
+
+- Embeddings may retrieve semantically similar but incorrect documents
+- System depends on a small dataset, limiting robustness
+- No deep language understanding or reasoning
+
 ## How to Run
 
-### Install dependencies
-```bash
+Install dependencies:
+
 pip install -r requirements.txt
+
+Run demo:
+
+python src/demo.py
+
+Run evaluation:
+
+python src/evaluator.py
